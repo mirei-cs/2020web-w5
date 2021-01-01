@@ -32,7 +32,7 @@ function result() {
   }
 
   if(document.getElementById("ja").checked) {
-    const temperature ='摂氏'+  Math.round((94 - 32) * 5 / 9 );
+    const temperature ='摂氏'+Math.round((94-32) * 5 / 9);
     const weight = Math.round(300/2.205) + ' kg';
     newStory = newStory.replace('華氏94',temperature);
     newStory = newStory.replace('300ポンド',weight);
